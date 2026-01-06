@@ -109,16 +109,6 @@ This demonstrates:
 
 The following URLs were exposed using OpenShift Routes to validate the deployments:
 
-### 🐍 Flask (Python)
-- Health:  
-  http://flask-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/health
-- Message:  
-  http://flask-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/message
-- Date:  
-  http://flask-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/date
-
----
-
 ### 🟢 Node.js
 - Health:  
   http://node-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/health
@@ -136,6 +126,14 @@ The following URLs were exposed using OpenShift Routes to validate the deploymen
   http://php-api-yaml-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/message.php
 - Date:  
   http://php-api-yaml-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/date.php
+---
+### 🐍 Flask (Python)
+- Health:  
+  http://flask-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/health
+- Message:  
+  http://flask-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/message
+- Date:  
+  http://flask-api-alaaynassar-dev.apps.rm3.7wse.p1.openshiftapps.com/date
 
 ---
 ## 📂 Project Structure
